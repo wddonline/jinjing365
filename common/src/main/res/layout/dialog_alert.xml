@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_alert_dialog"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingTop="20dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="10dp">
+
+    <TextView
+        android:id="@+id/dialog_alert_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/dialog_alert_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="right">
+
+        <TextView
+            android:id="@+id/dialog_alert_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_alert_btn_bg"
+            android:padding="10dp"
+            android:text="@string/permission_cancel"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/dialog_alert_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:background="@drawable/selector_alert_btn_bg"
+            android:padding="10dp"
+            android:text="@string/ok_label"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
